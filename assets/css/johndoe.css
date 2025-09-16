@@ -11715,3 +11715,19 @@ pre .code {
         padding-right: 20px;
     }
 }
+
+/* AJUSTES RESPONSIVOS ADICIONALES */
+@media (max-width: 767px) {
+    
+    /* Permite que los filtros del portafolio se envuelvan en móvil */
+    .portfolio-filter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portfolio-filter a {
+        margin-bottom: 5px; /* Añade un pequeño espacio si se envuelven */
+    }
+
+}
