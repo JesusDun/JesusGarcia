@@ -53,5 +53,5 @@ Este proyecto fue construido utilizando las siguientes tecnologías:
 ¡Gracias por visitar mi repositorio! Si tienes alguna pregunta o te gustaría conectar, no dudes en contactarme.
 
 * **Jesús Alejandro Vielma García**
-* **Correo:** [alejandrovielmagarcia013@gmail.com](mailto:alejandrovielmagarcia013@gmail.com)
+* **Correo:** [alejandrovielmagarcia013@gmail.com]
 * **LinkedIn:** [linkedin.com/in/jesús-alejandro-vielma-garcía](https://www.linkedin.com/in/jes%C3%BAs-alejandro-vielma-garc%C3%ADa-131353376/)
