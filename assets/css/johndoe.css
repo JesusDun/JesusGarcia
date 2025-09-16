@@ -11682,3 +11682,36 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+
+/* ===================================================================
+    ESTILOS RESPONSIVOS PARA MÓVILES
+=================================================================== */
+
+@media (max-width: 767px) {
+    /* Reduce el tamaño del título principal en el header */
+    .header .title {
+        font-size: 2.8rem;
+    }
+
+    /* Reduce el tamaño de los subtítulos del header */
+    .header .subtitle {
+        font-size: 1.2rem;
+    }
+
+    /* Reduce el tamaño de los títulos de cada sección */
+    h2, .h2 {
+        font-size: 2rem;
+    }
+    
+    /* Reduce el espaciado en las secciones para que no se vean tan largas */
+    .section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /* Ajusta el footer que hicimos para que el texto no esté pegado al borde */
+    .footer .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
