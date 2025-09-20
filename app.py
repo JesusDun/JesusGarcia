@@ -19,6 +19,16 @@ def home():
     """Sirve el archivo principal de tu página web."""
     return send_from_directory('.', 'index.html')
 
+@app.route('/privacy-policy')
+def privacy_policy():
+    """Sirve la página de la política de privacidad."""
+    return send_from_directory('.', 'privacy-policy.html')
+
+@app.route('/terms-and-conditions')
+def terms_and_conditions():
+    """Sirve la página de términos y condiciones."""
+    return send_from_directory('.', 'terms-and-conditions.html')
+    
 # --- Rutas de la API (Aquí es donde ocurre la magia del Web Service) ---
 
 @app.route('/api/saludo')
